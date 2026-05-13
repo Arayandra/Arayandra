@@ -21,5 +21,5 @@ Saya adalah seorang *Full Stack Developer* yang berfokus pada pembuatan aplikasi
    - Teknologi: PHP, Laravel Framework, Blade, MySQL.
 
 ## ✉️ Hubungi Saya
-- LinkedIn: [[Tautan LinkedIn](https://github.com/Arayandra/)]
-- Email: advanirayandrak@gmail.com
+- *Instagram:* [@arayandraa](https://www.instagram.com/arayandraa?igsh=aG8yeHd4ZDZmZ3ox)
+- *Email:* advanirayandrak@gmail.com
