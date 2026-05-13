@@ -1,16 +1,25 @@
-## Hi there 👋
+# Halo, Saya Andra! 👋
+Saya adalah seorang *Full Stack Developer* yang berfokus pada pembuatan aplikasi web yang responsif dan efisien.
 
-<!--
-**Arayandra/Arayandra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🚀 Tech Stack
+- *Frontend:* HTML, CSS, JavaScript
+- *Backend:* Laravel, Django
+- *Database:* MySQL 
 
-Here are some ideas to get you started:
+## 📂 Proyek Unggulan
+1. *[E-Fashion](https://github.com/Arayandra/Link_UAS_Pemrograman_Web)*
+   - Deskripsi: Aplikasi web yang dirancang untuk memudahkan pengguna dalam memilih, dan membeli produk secara online.
+   - Teknologi: PHP, Laravel Framework, Blade, Vue.js, MySQL.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+2. *[Cafein](https://github.com/BintangBintangBintang/Cafein)*
+   - Deskripsi: Aplikasi mobile untuk mempermudah pelanggan dalam melihat menu dan melakukan pemesanan di kedai kopi secara praktis.
+   - Teknologi: React Native, JavaScript, Firebase (Backend-as-a-Service).
+   - [Demo Aplikasi](https://youtu.be/gXVaInI5lcM).
+  
+3. *[Airline Reservation System](https://github.com/Arayandra/airline-booking)*
+   - Deskripsi: Aplikasi web untuk manajemen dan pemesanan tiket pesawat.
+   - Teknologi: PHP, Laravel Framework, Blade, MySQL.
+
+## ✉️ Hubungi Saya
+- LinkedIn: [[Tautan LinkedIn](https://github.com/Arayandra/)]
+- Email: advanirayandrak@gmail.com
