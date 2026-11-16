@@ -90,7 +90,7 @@ Laravel 13 was released on 17 March 2026 and requires PHP 8.3 or later. Upgrades
 
 ## Testing and Screenshot Evidence
 
-Project READMEs include GitHub Actions status badges. The latest `main` workflow runs reviewed on 16 November 2026 were successful for CareDesk, Weather AI Banten, Gemini AI Travel Chatbot, Web Katalog, Airline Booking, PureGreens, and Fashion E-Commerce. These results validate the checks defined by each repository; they are not a substitute for a manual browser walkthrough.
+Project READMEs include GitHub Actions status badges. Completed `main`-branch runs reviewed on 16 November 2026 were successful for CareDesk, Weather AI Banten, Gemini AI Travel Chatbot, Web Katalog, Airline Booking, PureGreens, and Fashion E-Commerce. The README and ignore-file commits in this maintenance pass also triggered fresh CI runs in several repositories; use the live badges for their latest state. Automated checks are not a substitute for a manual browser walkthrough.
 
 Real application screenshots are still a portfolio follow-up: CareDesk and the Gemini chatbot explicitly have no runtime screenshot committed; Weather AI's current image is a static layout preview with representative values, not a live capture; Fashion E-Commerce also marks its real browser capture as pending. Airline Booking, PureGreens, and Web Katalog now document the screens to capture. Product photos, hero backgrounds, and mockups should not be presented as application screenshots.
 
