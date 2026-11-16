@@ -4,7 +4,7 @@
 
 **Full-Stack Developer | Data Analytics & AI/ML Projects**
 
-I build practical web applications and data-driven workflows—from backend APIs and relational data to exploratory analysis and machine-learning model integration.
+I build practical web applications and data-driven workflows from backend APIs and relational data to exploratory analysis and machine-learning model integration.
 
 <p>
   <a href="https://github.com/Arayandra?tab=repositories"><img src="https://img.shields.io/badge/Explore%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories"></a>
