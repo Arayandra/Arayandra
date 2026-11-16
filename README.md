@@ -110,6 +110,16 @@ Real application screenshots are still a portfolio follow-up: CareDesk and the G
 
 Recommended screenshot set: one main dashboard/home screen plus one important workflow screen for each featured application. Capture them only from the running application with demo data, then commit them under each repository's `docs/screenshots/` folder and reference those files in the README.
 
+## Next Portfolio Improvement Priorities
+
+1. **Add authentic runtime screenshots.** Capture the running interface for CareDesk, Weather AI Banten, Gemini Chatbot, Fashion E-Commerce, Airline Booking, PureGreens, and Web Katalog. Use demo data and store captures under `docs/screenshots/`; distinguish static previews from browser screenshots.
+2. **Close dependency lockfile gaps.** Generate and commit `package-lock.json` for CareDesk and Gemini Chatbot, plus both `composer.lock` and `package-lock.json` for Web Katalog. Run the same CI workflow after generating each lockfile; do not hand-write lockfile contents.
+3. **Expand missing CI coverage.** Add frontend asset compilation to Airline Booking CI. Add Django tests, CNN-LSTM load/inference smoke tests, and chronological forecast evaluation to Weather AI CI. Keep live API tests separate and mock external providers in routine CI.
+4. **Upgrade unsupported Laravel baselines.** Prioritize Airline Booking (Laravel 9), then the Laravel 10 applications. Upgrade Web Katalog from Laravel 12 before its security-fix window closes on 24 February 2027. Validate PHP/package compatibility and regression flows before merging.
+5. **Verify integrations end to end.** Test PureGreens iPaymu using provider sandbox credentials and HTTPS callback delivery. Keep Fashion Store PayPal disabled until a complete server-side payment implementation and tests exist. Do not use real payments or production customer data for CI.
+
+These are planned improvements, not completed work. Keep the current green CI state as the baseline while addressing them one by one.
+
 ## Areas of Focus
 
 - Full-stack web application development and REST API integration
