@@ -88,6 +88,20 @@ Reviewed on **16 November 2026**. These are upgrade targets, not claims that the
 
 Laravel 13 was released on 17 March 2026 and requires PHP 8.3 or later. Upgrades must include dependency compatibility checks, lockfile updates, migrations, automated tests, frontend builds, and browser smoke tests. See the [official Laravel release/support policy](https://laravel.com/framework/docs/releases) and [Laravel 13 upgrade guide](https://laravel.com/docs/13.x/upgrade).
 
+## Verified CI Test Results
+
+| Project | CI evidence (16 Nov 2026) |
+| --- | --- |
+| [CareDesk](https://github.com/Arayandra/caredesk) | 11 PHPUnit tests · 54 assertions · Vue build · migrations/seeders · authenticated dashboard HTTP smoke test |
+| [Airline Booking](https://github.com/Arayandra/airline-booking) | 8 PHPUnit tests · route registration; CI does not currently build the Laravel Mix frontend |
+| [Fashion E-Commerce](https://github.com/Arayandra/fashion-ecommerce-store) | 9 PHPUnit tests · 22 assertions · MySQL migrations · production asset build |
+| [PureGreens](https://github.com/Arayandra/PureGreens) | 28 Laravel tests · 62 assertions · 5 Python Apriori tests · Vite build |
+| [Web Katalog](https://github.com/Arayandra/Web-Katalog) | 8 Laravel tests · 19 assertions · npm and Composer dependency audits · Vite build |
+| [Gemini AI Travel Chatbot](https://github.com/Arayandra/chatbot-gemini-ai) | 6 Node.js request-validation tests; no live Gemini API call in CI |
+| [Weather AI — Banten](https://github.com/Arayandra/weather-ai-banten) | Python compilation · notebook structure · cleaned-dataset integrity; Django/model accuracy tests are not yet in CI |
+
+The results above are from successful `main`-branch GitHub Actions runs on 16 November 2026. They are limited to the checks each workflow actually performs and should not be read as proof of manual browser testing or production readiness.
+
 ## Testing and Screenshot Evidence
 
 Project READMEs include GitHub Actions status badges. Completed `main`-branch runs reviewed on 16 November 2026 were successful for CareDesk, Weather AI Banten, Gemini AI Travel Chatbot, Web Katalog, Airline Booking, PureGreens, and Fashion E-Commerce. The README and ignore-file commits in this maintenance pass also triggered fresh CI runs in several repositories; use the live badges for their latest state. Automated checks are not a substitute for a manual browser walkthrough.
