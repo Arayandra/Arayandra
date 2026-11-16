@@ -74,20 +74,6 @@ A selection of web application, data analytics, and AI/ML projects from my repos
 
 [Browse all repositories →](https://github.com/Arayandra?tab=repositories)
 
-## Framework Maintenance Roadmap
-
-Reviewed on **16 November 2026**. These are upgrade targets, not claims that the framework changes have already been applied. Each project README now contains its own migration checklist.
-
-| Project | Current Framework | Support status | Planned target |
-| --- | --- | --- | --- |
-| [Airline Booking](https://github.com/Arayandra/airline-booking) | Laravel 9 | Security support ended 6 Feb 2024 | Laravel 13 · PHP 8.3+ |
-| [CareDesk](https://github.com/Arayandra/caredesk) | Laravel 10 | Security support ended 4 Feb 2025 | Laravel 13 · PHP 8.3+ |
-| [Fashion E-Commerce](https://github.com/Arayandra/fashion-ecommerce-store) | Laravel 10 | Security support ended 4 Feb 2025 | Laravel 13 · PHP 8.3+ |
-| [PureGreens](https://github.com/Arayandra/PureGreens) | Laravel 10 | Security support ended 4 Feb 2025 | Laravel 13 · PHP 8.3+; migrate Filament/Livewire integrations |
-| [Web Katalog](https://github.com/Arayandra/Web-Katalog) | Laravel 12 | Bug-fix support ended 13 Aug 2026; security fixes through 24 Feb 2027 | Laravel 13 · PHP 8.3+ before the security window closes |
-
-Laravel 13 was released on 17 March 2026 and requires PHP 8.3 or later. Upgrades must include dependency compatibility checks, lockfile updates, migrations, automated tests, frontend builds, and browser smoke tests. See the [official Laravel release/support policy](https://laravel.com/framework/docs/releases) and [Laravel 13 upgrade guide](https://laravel.com/docs/13.x/upgrade).
-
 ## Verified CI Test Results
 
 | Project | CI evidence (16 Nov 2026) |
@@ -102,23 +88,6 @@ Laravel 13 was released on 17 March 2026 and requires PHP 8.3 or later. Upgrades
 
 The results above are from successful `main`-branch GitHub Actions runs on 16 November 2026. They are limited to the checks each workflow actually performs and should not be read as proof of manual browser testing or production readiness.
 
-## Testing and Screenshot Evidence
-
-Project READMEs include GitHub Actions status badges. Completed `main`-branch runs reviewed on 16 November 2026 were successful for CareDesk, Weather AI Banten, Gemini AI Travel Chatbot, Web Katalog, Airline Booking, PureGreens, and Fashion E-Commerce. The README and ignore-file commits in this maintenance pass also triggered fresh CI runs in several repositories; use the live badges for their latest state. Automated checks are not a substitute for a manual browser walkthrough.
-
-Real application screenshots are still a portfolio follow-up: CareDesk and the Gemini chatbot explicitly have no runtime screenshot committed; Weather AI's current image is a static layout preview with representative values, not a live capture; Fashion E-Commerce also marks its real browser capture as pending. Airline Booking, PureGreens, and Web Katalog now document the screens to capture. Product photos, hero backgrounds, and mockups should not be presented as application screenshots.
-
-Recommended screenshot set: one main dashboard/home screen plus one important workflow screen for each featured application. Capture them only from the running application with demo data, then commit them under each repository's `docs/screenshots/` folder and reference those files in the README.
-
-## Next Portfolio Improvement Priorities
-
-1. **Add authentic runtime screenshots.** Capture the running interface for CareDesk, Weather AI Banten, Gemini Chatbot, Fashion E-Commerce, Airline Booking, PureGreens, and Web Katalog. Use demo data and store captures under `docs/screenshots/`; distinguish static previews from browser screenshots.
-2. **Close dependency lockfile gaps.** Generate and commit `package-lock.json` for CareDesk and Gemini Chatbot, plus both `composer.lock` and `package-lock.json` for Web Katalog. Run the same CI workflow after generating each lockfile; do not hand-write lockfile contents.
-3. **Expand missing CI coverage.** Add frontend asset compilation to Airline Booking CI. Add Django tests, CNN-LSTM load/inference smoke tests, and chronological forecast evaluation to Weather AI CI. Keep live API tests separate and mock external providers in routine CI.
-4. **Upgrade unsupported Laravel baselines.** Prioritize Airline Booking (Laravel 9), then the Laravel 10 applications. Upgrade Web Katalog from Laravel 12 before its security-fix window closes on 24 February 2027. Validate PHP/package compatibility and regression flows before merging.
-5. **Verify integrations end to end.** Test PureGreens iPaymu using provider sandbox credentials and HTTPS callback delivery. Keep Fashion Store PayPal disabled until a complete server-side payment implementation and tests exist. Do not use real payments or production customer data for CI.
-
-These are planned improvements, not completed work. Keep the current green CI state as the baseline while addressing them one by one.
 
 ## Areas of Focus
 
