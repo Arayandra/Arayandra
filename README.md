@@ -74,6 +74,28 @@ A selection of web application, data analytics, and AI/ML projects from my repos
 
 [Browse all repositories →](https://github.com/Arayandra?tab=repositories)
 
+## Framework Maintenance Roadmap
+
+Reviewed on **16 November 2026**. These are upgrade targets, not claims that the framework changes have already been applied. Each project README now contains its own migration checklist.
+
+| Project | Current Framework | Support status | Planned target |
+| --- | --- | --- | --- |
+| [Airline Booking](https://github.com/Arayandra/airline-booking) | Laravel 9 | Security support ended 6 Feb 2024 | Laravel 13 · PHP 8.3+ |
+| [CareDesk](https://github.com/Arayandra/caredesk) | Laravel 10 | Security support ended 4 Feb 2025 | Laravel 13 · PHP 8.3+ |
+| [Fashion E-Commerce](https://github.com/Arayandra/fashion-ecommerce-store) | Laravel 10 | Security support ended 4 Feb 2025 | Laravel 13 · PHP 8.3+ |
+| [PureGreens](https://github.com/Arayandra/PureGreens) | Laravel 10 | Security support ended 4 Feb 2025 | Laravel 13 · PHP 8.3+; migrate Filament/Livewire integrations |
+| [Web Katalog](https://github.com/Arayandra/Web-Katalog) | Laravel 12 | Bug-fix support ended 13 Aug 2026; security fixes through 24 Feb 2027 | Laravel 13 · PHP 8.3+ before the security window closes |
+
+Laravel 13 was released on 17 March 2026 and requires PHP 8.3 or later. Upgrades must include dependency compatibility checks, lockfile updates, migrations, automated tests, frontend builds, and browser smoke tests. See the [official Laravel release/support policy](https://laravel.com/framework/docs/releases) and [Laravel 13 upgrade guide](https://laravel.com/docs/13.x/upgrade).
+
+## Testing and Screenshot Evidence
+
+Project READMEs include GitHub Actions status badges. The latest `main` workflow runs reviewed on 16 November 2026 were successful for CareDesk, Weather AI Banten, Gemini AI Travel Chatbot, Web Katalog, Airline Booking, PureGreens, and Fashion E-Commerce. These results validate the checks defined by each repository; they are not a substitute for a manual browser walkthrough.
+
+Real application screenshots are still a portfolio follow-up: CareDesk and the Gemini chatbot explicitly have no runtime screenshot committed; Weather AI's current image is a static layout preview with representative values, not a live capture; Fashion E-Commerce also marks its real browser capture as pending. Airline Booking, PureGreens, and Web Katalog now document the screens to capture. Product photos, hero backgrounds, and mockups should not be presented as application screenshots.
+
+Recommended screenshot set: one main dashboard/home screen plus one important workflow screen for each featured application. Capture them only from the running application with demo data, then commit them under each repository's `docs/screenshots/` folder and reference those files in the README.
+
 ## Areas of Focus
 
 - Full-stack web application development and REST API integration
