@@ -11,7 +11,7 @@ I'm a Full-Stack Developer interested in building practical, responsive web appl
 
 ## Selected Web & Application Projects
 
-These repositories showcase application development projects rather than coursework or learning exercises.
+These repositories showcase web development and application projects.
 
 | Project | Overview | Main Technologies |
 | --- | --- | --- |
@@ -20,6 +20,7 @@ These repositories showcase application development projects rather than coursew
 | [Airline Booking](https://github.com/Arayandra/airline-booking) | Flight booking and administration system for managing airlines, airports, schedules, customers, and tickets. | Laravel 9, PHP, MySQL, Bootstrap |
 | [Gemini AI Travel Chatbot](https://github.com/Arayandra/chatbot-gemini-ai) | AI-powered travel chatbot that helps users explore destinations and create trip itineraries through conversation. | Node.js, Express, Google Gemini API, JavaScript |
 | [Web Katalog](https://github.com/Arayandra/Web-Katalog) | Product catalog application with search, category filters, product details, and responsive pages. | Laravel 12, PHP, Tailwind CSS |
+| [Personal Website](https://github.com/Arayandra/project-uts) | Multi-page personal website with home, travel, about, photography, and contact sections. | HTML, CSS, Bootstrap, JavaScript |
 
 ## Areas of Interest
 
