@@ -18,7 +18,7 @@ I build practical web applications and data-driven workflows from backend APIs a
 
 ## About Me
 
-I'm interested in building responsive web applications, backend services, and data-driven solutions. I enjoy working across the application stack—from designing interfaces and building REST APIs to cleaning datasets, exploring patterns, visualizing results, and integrating machine-learning models.
+I'm interested in building responsive web applications, backend services, and data-driven solutions. I enjoy working across the application stack from designing interfaces and building REST APIs to cleaning datasets, exploring patterns, visualizing results, and integrating machine-learning models.
 
 My project experience includes clinic operations, e-commerce, booking platforms, product catalogs, weather data analysis, and AI-assisted applications.
 
