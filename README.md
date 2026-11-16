@@ -1,25 +1,34 @@
-# Halo, Saya Andra! 👋
-Saya adalah seorang *Full Stack Developer* yang berfokus pada pembuatan aplikasi web yang responsif dan efisien.
+# Hi, I'm Andra! 👋
 
-## 🚀 Tech Stack
-- *Frontend:* HTML, CSS, JavaScript
-- *Backend:* Laravel, Django
-- *Database:* MySQL 
+I'm a Full-Stack Developer interested in building practical, responsive web applications and digital products.
 
-## 📂 Proyek Unggulan
-1. *[E-Fashion](https://github.com/Arayandra/Link_UAS_Pemrograman_Web)*
-   - Deskripsi: Aplikasi web yang dirancang untuk memudahkan pengguna dalam memilih, dan membeli produk secara online.
-   - Teknologi: PHP, Laravel Framework, Blade, Vue.js, MySQL.
+## Tech Stack
 
-2. *[Cafein](https://github.com/BintangBintangBintang/Cafein)*
-   - Deskripsi: Aplikasi mobile untuk mempermudah pelanggan dalam melihat menu dan melakukan pemesanan di kedai kopi secara praktis.
-   - Teknologi: React Native, JavaScript, Firebase (Backend-as-a-Service).
-   - [Demo Aplikasi](https://youtu.be/gXVaInI5lcM).
-  
-3. *[Airline Reservation System](https://github.com/Arayandra/airline-booking)*
-   - Deskripsi: Aplikasi web untuk manajemen dan pemesanan tiket pesawat.
-   - Teknologi: PHP, Laravel Framework, Blade, MySQL.
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap, Blade, Livewire
+- **Backend:** PHP, Laravel, Node.js, Express
+- **Database:** MySQL, MariaDB
+- **Other Tools:** Git, Vite, Filament, Google Gemini API
 
-## ✉️ Hubungi Saya
-- *Instagram:* [@arayandraa](https://www.instagram.com/arayandraa?igsh=aG8yeHd4ZDZmZ3ox)
-- *Email:* advanirayandrak@gmail.com
+## Selected Web & Application Projects
+
+These repositories showcase application development projects rather than coursework or learning exercises.
+
+| Project | Overview | Main Technologies |
+| --- | --- | --- |
+| [Fashion E-Commerce Store](https://github.com/Arayandra/fashion-ecommerce-store) | Online store for fashion and accessories, with product catalog, cart, checkout, order management, and admin dashboard. | Laravel 10, PHP, MySQL, Bootstrap |
+| [PureGreens](https://github.com/Arayandra/PureGreens) | Fresh-vegetable e-commerce application with customer accounts, order management, Filament admin panel, and Apriori product recommendations. | Laravel 10, Livewire, Filament, MySQL, Python |
+| [Airline Booking](https://github.com/Arayandra/airline-booking) | Flight booking and administration system for managing airlines, airports, schedules, customers, and tickets. | Laravel 9, PHP, MySQL, Bootstrap |
+| [Gemini AI Travel Chatbot](https://github.com/Arayandra/chatbot-gemini-ai) | AI-powered travel chatbot that helps users explore destinations and create trip itineraries through conversation. | Node.js, Express, Google Gemini API, JavaScript |
+| [Web Katalog](https://github.com/Arayandra/Web-Katalog) | Product catalog application with search, category filters, product details, and responsive pages. | Laravel 12, PHP, Tailwind CSS |
+
+## Areas of Interest
+
+- Full-stack web application development
+- E-commerce and booking systems
+- Administrative dashboards and data management
+- AI integration in web applications
+
+## Contact
+
+- **Instagram:** [@arayandraa](https://www.instagram.com/arayandraa)
+- **Email:** advanirayandrak@gmail.com
